@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     domains: [
       "lh3.googleusercontent.com",
+      "ecommerce-first.s3.amazonaws.com",
     ]
   }
 }
