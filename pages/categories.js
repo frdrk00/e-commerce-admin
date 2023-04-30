@@ -153,7 +153,7 @@ const Categories = ({swal}) => {
                                 placeholder="values, comma separated" 
                             />
                             <button 
-                                className="btn-default"
+                                className="btn-red"
                                 onClick={() => removeProperty(index)}
                                 type="button"
                             >
@@ -200,8 +200,8 @@ const Categories = ({swal}) => {
                             <td>{category.name}</td>
                             <td>{category?.parent?.name}</td>
                             <td>
-                                <button onClick={() => editCategory(category)} className="btn-primary mr-1">Edit</button>
-                                <button onClick={() => deleteCategory(category)} className="btn-primary">Delete</button>
+                                <button onClick={() => editCategory(category)} className="btn-default mr-1">Edit</button>
+                                <button onClick={() => deleteCategory(category)} className="btn-red">Delete</button>
                             </td>
                         </tr>
                     ))}
