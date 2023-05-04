@@ -7,8 +7,8 @@ import { withSwal } from "react-sweetalert2";
 function SettingsPage({swal}) {
     const [products, setProducts] = useState([])
     const [featuredProductId, setFeaturedProductId] = useState('')
-    const [isLoading, setIsLoading] = useState(false)
     const [shippingFee, setShippingFee] = useState('')
+    const [isLoading, setIsLoading] = useState(false)
 
     useEffect(() => {
         setIsLoading(true)

@@ -1,4 +1,4 @@
-const { Schema, model, models } = require("mongoose");
+import {model, models, Schema} from "mongoose";
 
 const OrderSchema = new Schema({
     line_items:Object,
